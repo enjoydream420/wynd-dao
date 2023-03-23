@@ -1,0 +1,19 @@
+[package]
+name = "wynd-utils"
+version = { workspace = true }
+authors = ["Cosmorama <cosmorama@proton.me>"]
+license = { workspace = true }
+description = "Utility functions used by multiple Wynd contracts"
+edition = { workspace = true }
+
+[dependencies]
+cosmwasm-std = { workspace = true }
+schemars = { workspace = true }
+serde = { workspace = true }
+thiserror = { workspace = true }
+
+[dev-dependencies]
+cw-multi-test = { workspace = true }
+cw-storage-plus = { workspace = true }
+prost = "0.9"
+test-case = { workspace = true }

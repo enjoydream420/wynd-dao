@@ -1,0 +1,31 @@
+[package]
+name = "cw20-vesting-airdrop"
+version = { workspace = true }
+authors = ["Cosmorama <cosmorama@proton.me>", "Orkun Kulce <orkunkl@users.noreply.github.com>", "Terraform Labs, PTE."]
+edition = { workspace = true }
+description = "An Airdrop contract for allowing users to claim rewards with Merkle Tree based proof"
+license = { workspace = true }
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[features]
+backtraces = ["cosmwasm-std/backtraces"]
+library = []
+
+[dependencies]
+cw-storage-plus = { workspace = true }
+cw-utils = { workspace = true }
+cw2 = { workspace = true }
+cw20-vesting = { workspace = true }
+cosmwasm-std = { workspace = true }
+hex = "0.4"
+schemars = { workspace = true }
+serde = { workspace = true }
+sha2 = { version = "0.9.5", default-features = false }
+thiserror = { workspace = true }
+wynd-utils = { workspace = true }
+
+[dev-dependencies]
+cosmwasm-schema = { workspace = true }
+serde_json = "1"

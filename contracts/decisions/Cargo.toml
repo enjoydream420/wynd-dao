@@ -1,0 +1,28 @@
+[package]
+name = "wynd-decisions"
+version = { workspace = true }
+authors = ["Cosmorama <cosmorama@proton.me>"]
+license = { workspace = true }
+description = "Record decisions taken by a multisig or DAO"
+repository = { workspace = true }
+homepage = "https://www.wynddao.com"
+edition = { workspace = true }
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[features]
+backtraces = ["cosmwasm-std/backtraces"]
+library = []
+
+[dependencies]
+cosmwasm-std = { workspace = true }
+cw-storage-plus = { workspace = true }
+cw-utils = { workspace = true }
+cw2 = { workspace = true }
+schemars = { workspace = true }
+serde = { workspace = true }
+thiserror = { workspace = true }
+
+[dev-dependencies]
+cosmwasm-schema = { workspace = true }

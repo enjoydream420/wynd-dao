@@ -1,0 +1,37 @@
+[package]
+name = "gauge-orchestrator"
+version = { workspace = true }
+authors = [ "Cosmorama <cosmorama@proton.me>" ]
+edition = { workspace = true }
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[features]
+backtraces = ["cosmwasm-std/backtraces"]
+library = []
+
+[dependencies]
+cosmwasm-schema = { workspace = true }
+cosmwasm-std = { workspace = true }
+cw-core-interface = { workspace = true }
+cw-storage-plus = { workspace = true }
+cw-utils = { workspace = true }
+cw2 = { workspace = true }
+schemars = { workspace = true }
+serde = { workspace = true }
+thiserror = { workspace = true }
+wynd-stake = { workspace = true }
+# Temporarily added for migration tests
+semver = { workspace = true }
+gauge-orchestrator-1_5_3 = { git = "https://github.com/cosmorama/wynddao.git", tag="v1.5.3", package = "gauge-orchestrator" }
+
+[dev-dependencies]
+anyhow = { workspace = true }
+cw-core = { workspace = true }
+cw-multi-test = { workspace = true }
+cw-proposal-single = { workspace = true }
+cw4 = { workspace = true }
+cw4-group = { workspace = true }
+cw4-voting = { workspace = true }
+voting = { workspace = true }
