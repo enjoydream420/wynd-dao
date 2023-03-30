@@ -1,6 +1,0 @@
-dcf0765e52a77034b10adf9d77dde288bccbca6d0dbc594dd50ef87bc5c8548c  ./target/wasm32-unknown-unknown/release/cw20_vesting.wasm
-e3e6189ecb257f9e9bef3e2079ae1fe92abf1ae13fd87e388dfc017d4a337665  ./target/wasm32-unknown-unknown/release/cw20_vesting_airdrop.wasm
-229e2106490f3ca8dbac5d0c842b38c9e554ab53b08dfd0314f306b76bffadb4  ./target/wasm32-unknown-unknown/release/gauge_orchestrator.wasm
-347a6884614b8de0d1e70cad074b548c7f48241ff9e2b7620feb3cc06311ebd3  ./target/wasm32-unknown-unknown/release/wynd_decisions.wasm
-ad8b42529f9d3bd770d735b4ed2bed73c2e6dcabb335060ba82d6b5c17cea144  ./target/wasm32-unknown-unknown/release/wynd_distribution.wasm
-dcf0765e52a77034b10adf9d77dde288bccbca6d0dbc594dd50ef87bc5c8548c  ./target/wasm32-unknown-unknown/release/wynd_stake.wasm
