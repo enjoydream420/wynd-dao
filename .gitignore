@@ -15,11 +15,6 @@ target/
 # Auto-gen
 .cargo-ok
 
-# Build artifacts
-*.wasm
-hash.txt
-contracts.txt
-
 # code coverage
 tarpaulin-report.*
 
